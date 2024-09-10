@@ -1,3 +1,5 @@
+// run this script if you want to find the channel ids of a channel.
+// you will need their channel link and then this script will do the rest
 const { google } = require('googleapis');
 const fs = require('fs');
 const { YOUTUBE_API_KEY } = require('./config');
@@ -6,46 +8,7 @@ const { YOUTUBE_API_KEY } = require('./config');
 const channelUrls = [
     "https://www.youtube.com/@20thCenturyStudiosES",
     "https://www.youtube.com/@20thCenturyStudiosHomeEntES",
-    "https://www.youtube.com/@acontrafilms",
-    "https://www.youtube.com/@PrimeVideoES",
-    "https://www.youtube.com/@PrimeVideoMX",
-    "https://www.youtube.com/@primevideolatinoamerica",
-    "https://www.youtube.com/@AppleEspana",
-    "https://www.youtube.com/@AppleMexico",
-    "https://www.youtube.com/@betafictionspain",
-    "https://www.youtube.com/@CineCANIBAL",
-    "https://www.youtube.com/@CorazonFilms",
-    "https://www.youtube.com/@DiamondFilmsEs",
-    "https://www.youtube.com/@DiamondFilmsLatam",
-    "https://www.youtube.com/@disneyspain",
-    "https://www.youtube.com/@DisneyStudiosLA",
-    "https://www.youtube.com/@disneyplusla",
-    "https://www.youtube.com/@disneypluses",
-    "https://www.youtube.com/DreamWorksTVEspañol",
-    "https://www.youtube.com/@KarmaFilmsCine",
-    "https://www.youtube.com/@marveles",
-    "https://www.youtube.com/@MarvelLatino",
-    "https://www.youtube.com/@StreamMaxLA",
-    "https://www.youtube.com/@StreamMaxES",
-    "https://www.youtube.com/@MorenaFilmsCine",
-    "https://www.youtube.com/@ParamountMexico",
-    "https://www.youtube.com/@ParamountPicturesES",
-    "https://www.youtube.com/@paramountplusmx",
-    "https://www.youtube.com/user/EspacioSony",
-    "https://www.youtube.com/@SonyPicturesLatam",
-    "https://www.youtube.com/@SonypicturesMexicoOficial",
-    "https://www.youtube.com/StarWarsES/videos",
-    "https://www.youtube.com/@StarWarsLA",
-    "https://www.youtube.com/user/tripictures",
-    "https://www.youtube.com/@UniversalPicsLatino",
-    "https://www.youtube.com/@universalpicturesmx",
-    "https://www.youtube.com/@Universal_Spain",
-    "https://www.youtube.com/@VerticeCine",
-    "https://www.youtube.com/@videocine",
-    "https://www.youtube.com/@filmsvertigo",
-    "https://www.youtube.com/c/WarnerBrosPicturesEspaña",
-    "https://www.youtube.com/@WarnerBrosPicturesLA",
-    "https://www.youtube.com/@youplanetpictures"
+    "https://www.youtube.com/@acontrafilms"
 ];
 
 
