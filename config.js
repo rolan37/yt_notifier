@@ -1,6 +1,6 @@
 // config.js
 module.exports = {
-    YOUTUBE_API_KEY: 'AIzaSyCFGNNcE4l_1M6AT8qruuMJvn58Xwyt2p4',
+    YOUTUBE_API_KEY: '',
     CHANNEL_IDS: [
         'UCpa54N4vmqqUKkGJcSV62Lw',  // 20thCenturyStudios
         'UC9YHyj7QSkkSg2pjQ7M8Khg',  // paramountmovies
