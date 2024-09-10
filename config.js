@@ -67,5 +67,10 @@ module.exports = {
         'UCuON8B3q1FMIOSE-0sbC_rQ',  // universalpicturesmx
         'UChuDcrzhzSJ7BgGxdU-jQFA',  // VerticeCine
         'UCu-cVVMn41qUA-pwdEhNqhg'   // WarnerBrosPicturesLA
-    ] 
+    ],
+    
+    VERIFIED_MAIL_SENDER : 'MS_ZMHPCd@trial-pxkjn41rxn6gz781.mlsender.net',
+    mailerSend_API : 'mlsn.5c75379dcc7b7a6f228a45e3e63c681432cf47d7869f2dfe7fae4cbdc289db97',
+    RECIPIENT_EMAIL: "codingsimplified7@gmail.com",
+    RECIPIENT_NAME: "Rolan Pereira" 
 };

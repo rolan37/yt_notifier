@@ -1,7 +1,10 @@
 const { MailerSend, EmailParams, Sender, Recipient } = require("mailersend");
+const fs = require('fs');
+const { mailerSend_API,VERIFIED_MAIL_SENDER, RECIPIENT_EMAIL,RECIPIENT_NAME  } = require('./config');
+
 
 const mailerSend = new MailerSend({
-    apiKey: 'mlsn.5c75379dcc7b7a6f228a45e3e63c681432cf47d7869f2dfe7fae4cbdc289db97',
+    apiKey: {mailerSend_API},
 });
 
 const sendMail = async (channelName, videoTitle, videoLink, videoDescription, downloadLink) => {
@@ -16,9 +19,9 @@ const sendMail = async (channelName, videoTitle, videoLink, videoDescription, do
         <button> <a href=${downloadLink}>Download Here</a> </button>
     `;
 
-    const sentFrom = new Sender("MS_ZMHPCd@trial-pxkjn41rxn6gz781.mlsender.net", "YTNotify"); // Replace with your verified sender's email
+    const sentFrom = new Sender({VERIFIED_MAIL_SENDER}, "YTNotify"); // Replace with your verified sender's email
     const recipients = [
-        new Recipient("codingsimplified7@gmail.com", "Rolan Pereira")
+        new Recipient({RECIPIENT_EMAIL}, {RECIPIENT_NAME})
     ];
 
     const emailParams = new EmailParams()
