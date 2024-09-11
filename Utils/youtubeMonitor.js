@@ -11,7 +11,9 @@ const checkForNewVideos = async () => {
         auth: YOUTUBE_API_KEY
     });
 
-    for (const channelId of CHANNEL_IDS) {
+    const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+    for (const [index, channelId] of CHANNEL_IDS.entries()) {
         try {
             console.log(`Checking channel: ${channelId}`);  // Log channel being checked
 
@@ -46,7 +48,7 @@ const checkForNewVideos = async () => {
                 console.log(`New video detected: ${videoTitle} from ${channelName}`);
 
                 // Send the email
-                await sendMail(channelName, videoTitle, videoLink, videoDescription,downloadLink);
+                await sendMail(channelName, videoTitle, videoLink, videoDescription, downloadLink);
 
                 console.log(`Email sent for video: ${videoTitle}`);
             } else {
@@ -54,6 +56,11 @@ const checkForNewVideos = async () => {
             }
         } catch (error) {
             console.error(`Error checking channel ${channelId}:`, error);
+        }
+
+        // Wait for 10 seconds before checking the next channel
+        if (index < CHANNEL_IDS.length - 1) { // Avoid delay after the last channel
+            await delay(10000); // 10 seconds
         }
     }
 };

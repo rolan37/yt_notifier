@@ -66,11 +66,84 @@ module.exports = {
         'UCC3jP00sSqKASvDoOha43lg',  // UniversalPicsLatino
         'UCuON8B3q1FMIOSE-0sbC_rQ',  // universalpicturesmx
         'UChuDcrzhzSJ7BgGxdU-jQFA',  // VerticeCine
-        'UCu-cVVMn41qUA-pwdEhNqhg'   // WarnerBrosPicturesLA
-    ],
-    
+        'UCu-cVVMn41qUA-pwdEhNqhg',// WarnerBrosPicturesLA
+        // AppleDeutschland
+        "UCMWc04n2YO39TRyi1I1o9pw",
+        // PrimeVideoDE
+        "UCNJwYVhTNX23AULBnfwnc9A",
+        // ParamountPlusDE
+        "",
+        // STUDIOCANALGermany
+        "UCli6wrnHj-ZRTChDbTGzT-Q",
+        // ufa_production
+        "UC8mnCoCi6eTQN0t8zapHYrA",
+        // TOBISFilm
+        "UCx0iU5xavnHwuMcPUtjAnhQ",
+        // telepool1393
+        "UCw3w7lQDm3fi3ual_8FYaNQ",
+        // kinostarfilmverleihgmbh8889
+        "UCqHFFlnH0_q5cMMxy4Z4DUA",
+        // splendidfilmbnl
+        "UCjR8fnu8ib0OtluICNE5OBg",
+        // filmweltverleih
+        "UCPhTrEpzqm_--HVIHL_MyXg",
+        // MajesticFilmverleih
+        "UCOab08IXF9FgucvLoBO3ltg",
+        // CaminoFilmverleihStuttgart
+        "UCEo1umabY89I6gVTmxISj-w",
+        // paramountpictures
+        "UCJjQlZAwP-rEvG9aD3xBUjg",
+        // disneyplus
+        "UCF9imwPMSGz4Vq1NiTWCC7g",
+        // A24
+        "UCIrgJInjLS2BhlHOMDW7v0g",
+        // Netflix
+        "UCuPivVjnfNo4mb3Oog_frZg",
+        // AppleTV
+        "UCWOA1ZGywLbqmigxE4Qlvuw",
+        // PrimeVideo
+        "UC1Myj674wRVXB9I4c6Hm5zA",
+        // PrimeVideoUK
+        "UCQJWtTnAHhEG5w4uN0udnUQ",
+        // AmazonMGMStudios
+        "UCwSIJCMWZC5GDM59wj7pMsg",
+        // pixar
+        "UCf5CjDJvsFvtVIhkfmKAwAA",
+        // Lucasfilm
+        "UC_IRYSp4auq7hKLvziWVH6w",
+        // STXFilms
+        "UCnwY6fAhE3ePu0F2nMP-DLg",
+        // radioactivepictures
+        "UCtlp8d4cZg2eMrVbq7vxg9w",
+        // sabanfilms4890
+        "UCAgDeAOaLLC3DK7fybBS_mA",
+        // highlandfilmgroup
+        "UCkaUErzjD9UUM8D-loIm5vA",
+        // PassionflixChannel
+        "UCPAs3FxtjNpgy-bd8DUX86w",
+        // vivapictures
+        "UCqCvjD4HezKIO03ASdlYWmA",
+        // TheAsylumMovieChannel
+        "UCVPQQtEV26rzNdNlMbXE-Qw",
+        // neonrated
+        "UCwQJJVNbn_Tqze89xf83nhw",
+        // GunpowderSky
+        "UCpy5dRhZd-JbZP4NsrnLt1w",
+        // gravitasventuresVOD
+        "UCB9U0iEZ7mg4ysOkhFqzbAw",
+        // darkskyfilms
+        "UCO7rKYuE7EMHYFcwP-obqhg",
+        // stillwatchingnetflix
+        "UCnVh4AgpZlnBR0z9-faJaqw",
+        // netflixanime
+        "UCGie8GMlUo3kBKIopdvumVQ",
+        // StreamOnMax
+        "UCBSs9x2KzSLhyyA9IKyt4YA",
+        // Vertical_Official
+        "UCx-KWLTKlB83hDI6UKECtJQ"
+    ], 
     VERIFIED_MAIL_SENDER : 'MS_ZMHPCd@trial-pxkjn41rxn6gz781.mlsender.net',
-    mailerSend_API : 'mlsn.5c75379dcc7b7a6f228a45e3e63c681432cf47d7869f2dfe7fae4cbdc289db97',
-    RECIPIENT_EMAIL: "codingsimplified7@gmail.com",
+    mailerSend_API : 'mlsn.46bbf24956a9cd8d47e1a932e3322953317261451859223b4c5814e973179547',
+    RECIPIENT_EMAIL: "rolanpereira3@gmail.com",
     RECIPIENT_NAME: "Rolan Pereira" 
 };

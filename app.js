@@ -15,7 +15,7 @@ const start = async () => {
         });
 
         // Check for new videos every 30 minutes 
-        setInterval(checkForNewVideos,  30 * 60 * 1000);
+        setInterval(checkForNewVideos,  1 * 60 * 1000);
     } catch (error) {
         console.log('Something went wrong', error);
     }
